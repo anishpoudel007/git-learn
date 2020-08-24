@@ -6,7 +6,7 @@ bp = Blueprint('public', __name__)
 
 @bp.route('/')
 def home():
-    return "home page"
+    return "home page updated response"
 
 
 @bp.route('/about-us')
