@@ -7,6 +7,14 @@ verify_ssl = true
 
 [packages]
 flask = "*"
+gunicorn = "*"
+flask-mail = "*"
+Flask-Migrate = "*"
+Flask-SQLAlchemy = "*"
+Pillow = "*"
+Flask-WTF = "*"
+Flask-Login = "*"
+email-validator = "*"
 
 [requires]
 python_version = "3.8"
